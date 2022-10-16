@@ -1,7 +1,6 @@
 {
   "name": "ajs",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -37,5 +36,14 @@
   },
   "dependencies": {
     "core-js": "^3.6.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Volivanmail/ajs_dz_4_1_from_the_template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Volivanmail/ajs_dz_4_1_from_the_template/issues"
+  },
+  "homepage": "https://github.com/Volivanmail/ajs_dz_4_1_from_the_template#readme",
+  "description": ""
 }
