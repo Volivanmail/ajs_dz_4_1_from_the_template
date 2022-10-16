@@ -7,7 +7,6 @@ beforeEach(() => {
   jest.resetAllMocks();
 });
 
-
 test('should call loadUser once', () => {
   httpGet.mockReturnValue(JSON.stringify({}));
 
