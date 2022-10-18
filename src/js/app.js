@@ -1,6 +1,11 @@
-// TODO: write your code here
-import sum from './basic';
-
-console.log('worked');
-
-console.log(sum([1, 2]));
+export default function healthLevel(data) {
+  let level;
+  if (data.health >= 50) {
+    level = 'healthy';
+  } else if (data.health < 15) {
+    level = 'critical';
+  } else {
+    level = 'wounded';
+  }
+  return console.log(level);
+}
