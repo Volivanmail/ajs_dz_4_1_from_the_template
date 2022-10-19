@@ -7,5 +7,5 @@ export default function healthLevel(data) {
   } else {
     level = 'wounded';
   }
-  return console.log(level);
+  return level;
 }
